@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.count {
+    margin: 1.3rem;
+    font-size: 5rem;
+}
+
+.btn {
+    background-color: transparent;
+    padding: 0.5rem 0.7rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transition: all 0.2s ease;
+    color: white;
+    background-color: black;
+}
+
+.negative {
+    color: red;
+}
+
+.neutral {
+    color: wheat;
+}
+
+.positive {
+    color: green;
+}
